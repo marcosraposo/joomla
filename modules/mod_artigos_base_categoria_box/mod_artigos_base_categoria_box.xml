@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+  <name>mod_artigos_base_categoria_box</name>
+  <author>Indra Company</author>
+  <version>1.0.0</version>
+  <creationDate>Setembro 2018</creationDate>
+  <description>
+    Módulo Base para Artigos separados por Categoria por Box
+  </description>    
+  <files>
+    <filename>mod_artigos_base_categoria_box.xml</filename>
+    <filename module="mod_artigos_base_categoria_box">mod_artigos_base_categoria_box.php</filename>
+    <filename>index.html</filename>
+    <filename>helper.php</filename>
+    <filename>tmpl/default.php</filename>
+    <filename>tmpl/index.html</filename>
+  </files>
+  <config>
+
+    <fields name="params">
+			<fieldset name="basic">
+				<field
+					name="catid"
+					type="category"
+					label="Categoria"
+					description="MOD_LATEST_NEWS_FIELD_CATEGORY_DESC"
+					extension="com_content"
+					multiple="true"
+					size="10"
+					default=""
+					>
+					<option value="">Todas Categorias</option>
+				</field>
+
+									
+				<field
+					name="showDataAtualizacao"
+					type="radio"
+					label="Exibir Data Atualização"
+					description="MOD_MENU_FIELD_ALLCHILDREN_DESC"
+					class="btn-group btn-group-yesno"
+					default="1">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="alias_menu"
+					type="text"
+					label="Alias Menu"
+					description="Alias Relacionado ao menu."
+					width="100"
+					filter="safehtml" 
+				/>
+
+				<field
+					name="title"
+					type="text"
+					label="Título"
+					description="Título da página."
+					width="100"
+					filter="safehtml" 
+				/>
+				
+				<field
+					name="subtitle"
+					type="editor"
+					label="Subtítulo"
+					description="Subtítulo da página"
+					width="100"
+					filter="safehtml" 
+				/>
+		
+				<field
+					name="footer"
+					type="editor"
+					label="Rodapé"
+					description="Rodapé a ser exibido ao fim da página."
+					width="100"
+					filter="safehtml" 
+				/>
+
+				<field
+					name="count"
+					type="number"
+					label="Quantidade de Artigos"
+					description="MOD_LATEST_NEWS_FIELD_COUNT_DESC"
+					default="5"
+				/>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC"
+					default="1"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+					default="900"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+					>
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+
+  </config>
+</extension>

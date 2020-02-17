@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+  <name>mod_auto_normas</name>
+  <author>Indra Company</author>
+  <version>1.0.0</version>
+  <creationDate>Julho 2018</creationDate>
+  <description>
+    Módulo de Normas
+  </description>    
+  <files>
+    <filename>mod_auto_normas.xml</filename>
+    <filename module="mod_auto_normas">mod_auto_normas.php</filename>
+    <filename>index.html</filename>
+    <filename>helper.php</filename>
+    <filename>tmpl/default.php</filename>
+    <filename>tmpl/index.html</filename>
+  </files>
+  <config>
+
+    <fields name="params">
+			<fieldset name="basic">
+				<field
+					name="url_webservice"
+					type="text"
+					label="URL Webservice"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				
+				
+				
+				
+				<field
+					name="getNormaAtoPJE"
+					type="text"
+					label="Cod. PDF Ator"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				<field
+					name="getNormaLeiPJE"
+					type="text"
+					label="Cod. PDF Ator"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+			
+				<field
+					name="getNormaPortariaPJE"
+					type="text"
+					label="Cod. PDF Ator"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				<field
+					name="getNormaProvimentoPJE"
+					type="text"
+					label="Cod. PDF Ator"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				<field
+					name="getNormaResolucaoPJE"
+					type="text"
+					label="Cod. PDF Ator"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+				<field
+					name="titulo_tab_2"
+					type="text"
+					label="Titulo TAB 2"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+
+				<field
+					name="titulo_tab_3"
+					type="text"
+					label="Titulo TAB 3"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+
+
+
+				<field
+					name="titulo_box_1"
+					type="text"
+					label="Titulo BOX 1"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+
+        <field
+					name="titulo_box_2"
+					type="text"
+					label="Titulo BOX 2"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+
+				<field
+					name="titulo_box_3"
+					type="text"
+					label="Titulo BOX 3"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC"
+					default="1"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+					default="900"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+					>
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+
+  </config>
+</extension>

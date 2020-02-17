@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_artigos_relacao_reformas</name>
+	<author>Indra Company</author>
+	<creationDate>Julho 2018</creationDate>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.indracompany.es</authorUrl>
+	<version>3.0.0</version>
+	<description>Modulo para trazer os ultimos artigos.</description>
+
+	<files>
+		<filename module="mod_artigos_relacao_reformas">mod_artigos_relacao_reformas.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.mod_articles_latest.ini</language>
+		<language tag="en-GB">en-GB.mod_articles_latest.sys.ini</language>
+	</languages>
+
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_LATEST_NEWS" />
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="catid"
+					type="category"
+					label="Categoria"
+					description="MOD_LATEST_NEWS_FIELD_CATEGORY_DESC"
+					extension="com_content"
+					multiple="true"
+					size="10"
+					default=""
+					>
+					<option value="">Todas Categorias</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC"
+					default="1"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+					default="900"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+					>
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

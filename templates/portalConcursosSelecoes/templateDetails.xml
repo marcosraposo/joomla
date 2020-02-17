@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>Portal TRF5 - Concursos e Seleções</name>
+	<creationDate>25/11/2018</creationDate>
+	<author>Indra Company</author>
+	<authorEmail>indracompany@indra.es</authorEmail>
+	<authorUrl>http://www.indracompany.es</authorUrl>
+	<copyright>Copyright (C) 2018 - 2018 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>Template para o Portal do TRF5 - Concursos e Seleções</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>javascript</folder>
+		<folder>language</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>position-1</position>
+		<position>menuPrincipal</position>
+		<position>midMenuConcursos</position>
+		<position>bannerConcursos</position>
+		<position>buscaGuiada</position>
+	</positions>
+</extension>

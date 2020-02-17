@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+  <name>monitor_servicos</name>
+  <author>Indra Company</author>
+  <version>1.0.0</version>
+  <creationDate>Julho 2018</creationDate>
+  <description>
+    Módulo para monitorar serviços
+  </description>    
+  <files>
+    <filename>monitor_servicos.xml</filename>
+    <filename module="monitor_servicos">monitor_servicos.php</filename>
+    <filename>index.html</filename>
+    <filename>helper.php</filename>
+    <filename>tmpl/default.php</filename>
+	<filename>tmpl/func.php</filename>
+    <filename>tmpl/index.html</filename>
+  </files>
+  <config>
+
+    <fields name="params">
+			<fieldset name="basic">
+
+
+				<field
+					name="senhaMonitor"
+					type="text"
+					label="Senha Monitor"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				
+				<field
+					name="servico_url_1"
+					type="text"
+					label="Link URL Serviços 1"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				<field
+					name="servico_nome_1"
+					type="text"
+					label="Nome Serviços 1"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				<field
+					name="servico_get_1"
+					type="text"
+					label="Get Serviços 1"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				
+				<field
+					name="servico_url_2"
+					type="text"
+					label="Link URL Serviços 2"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				<field
+					name="servico_nome_2"
+					type="text"
+					label="Nome Serviços 2"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				<field
+					name="servico_get_2"
+					type="text"
+					label="Get Serviços 2"
+					description="MOD_LATEST_NEWS_FIELD_FEATURED_DESC"
+					default=""
+				/>
+				
+				
+				
+				
+				
+				<field name="aba02" type="radio" default="0" 
+					label="Vai ser exibido na aba 02?" 
+					description="Vai ser exibido na aba 02?" 
+					class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>	
+				
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC"
+					default="1"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+					default="900"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+					>
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+
+  </config>
+</extension>

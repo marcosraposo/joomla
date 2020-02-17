@@ -1,0 +1,67 @@
+{
+
+  "numero" : "0816891-57.2018.4.05.0000",
+
+  "nomeParte" : [ {
+
+    "tipo" : "PESSOA_FISICA",
+
+    "nomeParte" : "MARIA JOSENITA MARINHO CARVALHO",
+
+    "documento" : null
+
+  }, {
+
+    "tipo" : "PESSOA_FISICA",
+
+    "nomeParte" : "NELSON WILIANS FRATONI RODRIGUES",
+
+    "documento" : null
+
+  }, {
+
+    "tipo" : "PESSOA_FISICA",
+
+    "nomeParte" : "FAZENDA NACIONAL",
+
+    "documento" : null
+
+  } ],
+
+  "link" : "https://pjeht.trf5.jus.br/pjehomolog/ConsultaPublica/DetalheProcessoConsultaPublica/listView.seam?signedIdProcessoTrf=568af03333f9522c86dc1ebcc163bb52",
+
+  "movimentacoes" : [ {
+
+    "data" : "05/12/2018 12:00:20",
+
+    "descricao" : "Juntada de Certidão de Retificação de Autuação"
+
+  }, {
+
+    "data" : "04/12/2018 03:58:42",
+
+    "descricao" : "Conclusos para julgamento"
+
+  }, {
+
+    "data" : "04/12/2018 02:00:59",
+
+    "descricao" : "Distribuído por Sorteio para 3ª Turma - Gab 13 - Des. ROGÉRIO FIALHO MOREIRA - ROGÉRIO DE MENESES FIALHO MOREIRA"
+
+  }, {
+
+    "data" : "04/12/2018 02:00:58",
+
+    "descricao" : "Recebido pelo Distribuidor"
+
+  } ],
+
+  "dataAutuacao" : "20181204140058.629",
+
+  "classeJudicial" : "AGRAVO DE INSTRUMENTO",
+
+ "assunto" : "Extinção da Execução | Liquidação / Cumprimento / Execução | DIREITO PROCESSUAL CIVIL E DO TRABALHO",
+
+  "orgaoJulgador" : "3ª Turma - Gab 13 - Des. ROGÉRIO FIALHO MOREIRA"
+
+}

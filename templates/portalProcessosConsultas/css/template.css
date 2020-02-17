@@ -1,0 +1,204 @@
+
+.demonstrativo {
+  overflow: auto; }
+
+ 
+  .demonstrativo .form-ata-login input, .demonstrativo .form-baixa-login input, .demonstrativo .form-baixa-login select, .demonstrativo .form-baixa-login textarea, .demonstrativo .form-consulta input[type=text], .demonstrativo .dadoscadastrais input, .dadoscadastrais .demonstrativo input {
+    width: 100%;
+    background-color: #E4E8F3;
+    border-color: #5776B0;
+    border-style: solid;
+    border-width: 0.15vh;
+    padding-left: 1vh;
+    text-align: center;
+    color: #5776B0;
+    font-weight: bold; }
+    .demonstrativo .form-ata-login input::-webkit-input-placeholder, .demonstrativo .form-baixa-login input::-webkit-input-placeholder, .demonstrativo .form-baixa-login select::-webkit-input-placeholder, .demonstrativo .form-baixa-login textarea::-webkit-input-placeholder, .demonstrativo .form-consulta input[type=text]::-webkit-input-placeholder, .demonstrativo .dadoscadastrais input::-webkit-input-placeholder, .dadoscadastrais .demonstrativo input::-webkit-input-placeholder {
+      color: #5776B0;
+      font-size: 13px; }
+    .demonstrativo .form-ata-login input::-moz-placeholder, .demonstrativo .form-baixa-login input::-moz-placeholder, .demonstrativo .form-baixa-login select::-moz-placeholder, .demonstrativo .form-baixa-login textarea::-moz-placeholder, .demonstrativo .form-consulta input[type=text]::-moz-placeholder, .demonstrativo .dadoscadastrais input::-moz-placeholder, .dadoscadastrais .demonstrativo input::-moz-placeholder {
+      color: #5776B0;
+      font-size: 13px; }
+  .demonstrativo .form-ata-login button[type=submit], .demonstrativo .form-baixa-login button[type=submit], .demonstrativo .form-consulta button[type=submit] {
+    width: 100%;
+    margin-bottom: 1vh;
+    background-color: #5776B0;
+    color: #fff;
+    border: 0px; }
+    .demonstrativo .form-ata-login button:hover[type=submit], .demonstrativo .form-baixa-login button:hover[type=submit], .demonstrativo .form-consulta button:hover[type=submit] {
+      cursor: pointer; }
+  .demonstrativo .form-baixa-login button.no-background[type=submit] {
+    width: 100%;
+    margin-bottom: 1vh;
+    background-color: #E4E8F3;
+    color: #5776B0;
+    border-color: #5776B0;
+    border-style: solid;
+    border-width: 0.15vh; }
+    .demonstrativo .form-baixa-login button.no-background:hover[type=submit] {
+      cursor: pointer; }
+  .demonstrativo .form-ata-login input {
+    width: 85%;
+    margin-top: 0.8vh;
+    background: url(../imgs/ic-calendar-menu.svg) 97%/6% no-repeat; }
+  .demonstrativo .form-ata-login button[type=submit] {
+    width: 85%;
+    margin-top: 0.5vh;
+    font-size: 16px;
+    height: 3.15vh; }
+  .demonstrativo .form-baixa-login.ajuste-form select {
+    height: 30px;
+    font-size: 14.4px;
+    font-weight: normal; }
+  .demonstrativo .form-baixa-login .a-select-6-1 {
+    height: 30px;
+    font-size: 14.4px;
+    font-weight: normal;
+    padding: 0 40px 0 15px !important;
+    margin-left: 30px;
+    background: url(../imgs/arrow_down_2.svg) 99%/44% no-repeat #E4E8F3; }
+  .demonstrativo .form-baixa-login .a-select-6-6 {
+    height: 30px;
+    font-size: 14.4px;
+    font-weight: normal;
+    padding: 0 40px 0 15px !important;
+    background: url(../imgs/arrow_down_2.svg) 91%/39% no-repeat #E4E8F3; }
+  .demonstrativo .form-baixa-login select {
+    height: 3.15vh;
+    min-height: 30px;
+    color: #5776B0;
+    font-size: 13px;
+    padding-left: 0.7vh !important;
+    text-align: center;
+    text-align-last: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../imgs/arrow_down_2.svg) 99%/5% no-repeat #E4E8F3; }
+    .demonstrativo .form-baixa-login select option {
+      text-transform: uppercase;
+      text-align: center;
+      text-align-last: center; }
+  .demonstrativo .form-baixa-login .ic-calendar {
+    background: url(../imgs/ic-calendar-menu.svg) 98.4%/4% no-repeat #E4E8F3; }
+    @media screen and (orientation: portrait) {
+      .demonstrativo .form-baixa-login .ic-calendar {
+        background: url(../imgs/ic-calendar-menu.svg) 98%/4% no-repeat #E4E8F3; } }
+  .demonstrativo .form-baixa-login .ic-calendar-2 {
+    background: url(../imgs/ic-calendar-menu.svg) 98%/8% no-repeat #E4E8F3; }
+    @media screen and (orientation: portrait) {
+      .demonstrativo .form-baixa-login .ic-calendar-2 {
+        background: url(../imgs/ic-calendar-menu.svg) 98%/4% no-repeat #E4E8F3; } }
+  .demonstrativo .form-baixa-login .ic-calendar-3 {
+    background: url(../imgs/ic-calendar-menu.svg) 96%/16% no-repeat #E4E8F3; }
+    @media screen and (orientation: portrait) {
+      .demonstrativo .form-baixa-login .ic-calendar-3 {
+        background: url(../imgs/ic-calendar-menu.svg) 96%/5% no-repeat #E4E8F3; } }
+  .demonstrativo .form-baixa-login input, .demonstrativo .form-baixa-login select, .demonstrativo .form-baixa-login textarea {
+    margin-top: 0.8vh; }
+  .demonstrativo .form-baixa-login textarea {
+    margin-top: 0.8vh;
+    height: 100px; }
+  .demonstrativo .form-baixa-login button[type=submit] {
+    margin-top: 0.8vh; }
+  .demonstrativo .form-baixa-login button[type=submit].no-background {
+    margin-top: 0.8vh; }
+  .demonstrativo .form-baixa-login .subtitulo {
+    margin: 1px;
+    font-size: 13px; }
+  .demonstrativo .form-baixa-login .validacao {
+    display: block; }
+    .demonstrativo .form-baixa-login .validacao.hide {
+      display: none; }
+  .demonstrativo .form-consulta input[type=text] {
+    margin-top: 0.5vh; }
+  .demonstrativo .form-consulta button[type=submit] {
+    margin-bottom: 1vh;
+    margin-top: 0.8vh; }
+  .demonstrativo .b-top {
+    border-top: 1px solid #5776B0;
+    margin-top: 30px; }
+
+
+.habilitarDaltonismo {
+  /* background-color: #A74F8B !important; */
+  /* filter: invert(100%); */
+  filter: grayscale(100%);
+}
+
+/**** BUSCA GUIADA MOBILE ****/
+
+@media(max-width: 768px) {
+
+  #exibirListaNiveis {
+    display: none;
+  }
+
+  .resultado .consultacontainer {
+    position: relative;
+    left: -74px;
+  }
+
+  .consultacontainer .consulta .fecha {
+    position: initial;
+  }
+
+  .consultacontainer .fecha:nth-child(2) {
+    position: absolute;
+    left: 0;
+  }
+
+  #resultadoBuscaGuiada .col-2, #resultadoBuscaGuiada .col-2 {
+    display: none;
+    visibility: hidden;
+  }
+
+  .titulo-consulta-box {
+    display: block;
+    padding: 10px 20px;
+    left: 95px;
+    top: -20px;
+  }
+
+  .consulta .option {
+    width: 127%;
+    margin-left: -20px;
+  }
+
+  .consulta .box {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: -17px;
+    padding-top: 30px;
+  }
+
+  .consulta .box .box {
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+    padding: 10px 10px;
+    min-height: 75px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+  }
+
+  .consulta .fecha {
+    right: -38px;
+    position: absolute;
+  }
+}
+
+@media(max-width: 768px) {
+  .main_box {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+.demonstrativo .conteudo .row.botoes a,
+.demonstrativo .conteudo a {
+  color: #0275d8;
+}
